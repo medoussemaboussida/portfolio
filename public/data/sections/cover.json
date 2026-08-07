@@ -1,0 +1,151 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Mohamed Oussema Boussida!}}"
+            },
+            "fr": {
+                "title_short": "Salut !",
+                "title_short_nav": "À propos",
+                "title_long_prefix": "Salut...",
+                "title_long": "Je suis {{Mohamed Oussema Boussida !}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Tunisia – Ariana",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "medoussemaboussida@gmail.com",
+                    "link": {"href": "mailto:medoussemaboussida@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@medoussemaboussida",
+                    "link": {"href": "https://github.com/medoussemaboussida", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."},
+                "fr": {"title": "{{Un peu}} à propos de moi..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>{{IT Engineer}} based in Tunisia. Graduate of [[ESPRIT School of Engineering]], specialized in Web and Internet Technologies. I'm actively looking for new opportunities to grow, contribute, and keep leveling up professionally.</p>"
+                        },
+                        "fr": {
+                            "text": "<p>Ingénieur informatique basé en Tunisie. Diplômé de l'ESPRIT School of Engineering, spécialisé en Technologies du Web et de l'Internet. Je suis activement à la recherche de nouvelles opportunités pour évoluer, contribuer et continuer à monter en compétences.</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+      
+
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Personal {{interests}}"},
+                "fr": {"title": "Intérêts {{personnels}} "}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-gamepad",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Gaming}}",
+                            "text": "Exploring digital worlds, playing competitive and cooperative games."
+                        },
+                        "fr": {
+                            "title": "{{Jeux vidéo}}",
+                            "text": "Explorer des mondes virtuels et jouer à des jeux compétitifs ou en coopération."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-tv",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Anime}} & Manga",
+                            "text": "Watching anime and reading manga."
+                        },
+                        "fr": {
+                            "title": "{{Anime}} & Manga",
+                            "text": "Regarder des anime et lire des mangas."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-dumbbell",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Gym}} & Fitness",
+                            "text": "Working out, staying healthy, and keeping active."
+                        },
+                        "fr": {
+                            "title": "{{Musculation}} & Fitness",
+                            "text": "S'entraîner, rester en bonne santé et rester actif."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
