@@ -2,6 +2,9 @@ import "./ArticleText.scss"
 import React, {useEffect, useState} from 'react'
 import Article from "/src/components/articles/base/Article.jsx"
 import AvatarView from "/src/components/generic/AvatarView.jsx"
+import {useData} from "/src/providers/DataProvider.jsx"
+import {useUtils} from "/src/hooks/utils.js"
+import {useLanguage} from "/src/providers/LanguageProvider.jsx"
 
 /**
  * @param {ArticleDataWrapper} dataWrapper
@@ -50,9 +53,19 @@ function ArticleTextItems({ dataWrapper, selectedItemCategoryId }) {
  * @constructor
  */
 function ArticleTextItem({ itemWrapper }) {
+    const data = useData()
+    const utils = useUtils()
+    const language = useLanguage()
+    const profile = data.getProfile()
+    const resumeUrl = profile.resumePdfUrl
+
     const positioningClass = itemWrapper.id % 2 === 0 ?
         `article-text-item-reverse` :
         ``
+
+    const _onDownload = () => {
+        if (resumeUrl) utils.file.download(resumeUrl)
+    }
 
     return (
         <div className={`article-text-item ${positioningClass}`}>
@@ -64,8 +77,18 @@ function ArticleTextItem({ itemWrapper }) {
                             alt={itemWrapper.imageAlt}/>
             </div>
 
-            <div className={`article-text-excerpt last-p-no-margin text-3`}
-                 dangerouslySetInnerHTML={{__html: itemWrapper.locales.text || itemWrapper.placeholder}}/>
+            <div className={`article-text-excerpt-wrapper`}>
+                <div className={`article-text-excerpt last-p-no-margin text-3`}
+                     dangerouslySetInnerHTML={{__html: itemWrapper.locales.text || itemWrapper.placeholder}}/>
+
+                {resumeUrl && (
+                    <button className={`article-text-resume-btn`}
+                            onClick={_onDownload}>
+                        <i className={`fa-solid fa-file-arrow-down`}/>
+                        <span>{language.getString("download_resume") || "Download Resume"}</span>
+                    </button>
+                )}
+            </div>
         </div>
     )
 }

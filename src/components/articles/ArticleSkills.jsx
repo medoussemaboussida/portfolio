@@ -75,12 +75,18 @@ function ArticleSkillsItems({ dataWrapper, selectedItemCategoryId }) {
  * @constructor
  */
 function ArticleSkillsItem({ itemWrapper }) {
-    const avatarViewClass = itemWrapper.articleWrapper.settings.roundIcons ?
+    const roundIcons = itemWrapper.articleWrapper.settings.roundIcons
+    const logoOnly = itemWrapper.articleWrapper.settings.logoOnly
+
+    const avatarViewClass = roundIcons ?
         `article-skills-item-avatar-round` :
         ``
 
+    const itemTitle = itemWrapper.locales.title || itemWrapper.placeholder || ""
+
     return (
-        <div className={`article-skills-item`}>
+        <div className={`article-skills-item ${logoOnly ? 'article-skills-item-logo-only' : ''}`}
+             title={logoOnly ? itemTitle : undefined}>
             <div className={`article-skills-item-avatar-wrapper`}>
                 <AvatarView src={itemWrapper.img}
                             faIcon={itemWrapper.faIconWithFallback}
@@ -89,7 +95,7 @@ function ArticleSkillsItem({ itemWrapper }) {
                             className={`article-skills-item-avatar ${avatarViewClass}`}/>
             </div>
 
-            <ArticleSkillsItemInfo itemWrapper={itemWrapper}/>
+            {!logoOnly && <ArticleSkillsItemInfo itemWrapper={itemWrapper}/>}
         </div>
     )
 }

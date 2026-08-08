@@ -1,8 +1,8 @@
 {
     "name": "Mohamed Oussema Boussida",
 
-    "profilePictureUrl": "images/pictures/profile-picture.jpg",
-    "resumePdfUrl": "",
+    "profilePictureUrl": "images/pictures/oussema.png",
+    "resumePdfUrl": "cv_BoussidaMohamedOussema.pdf",
 
     "statusCircleVisible": true,
     "statusCircleVariant": "available",
@@ -12,23 +12,19 @@
         "en": {
             "localized_name": "Mohamed Oussema Boussida",
             "localized_name_stylized": " [[Mohamed Oussema {{Boussida}}]]",
-            "status_message_available_for_freelance": "Available for freelance!",
             "roles": [
-                "Backend Developer",
-                "Frontend Developer",
+                "Full-Stack Engineer",
                 "DevOps Engineer",
-                "UX Designer"
+                "AI Anthusiast"
             ],
             "name_pronunciation_ipa": "",
             "name_pronunciation_audio_url": ""
         },
         "fr": {
-            "status_message_available_for_freelance": "Disponible pour freelance !",
             "roles": [
-                "Développeur Backend",
-                "Développeur Frontend",
+                "Ingénieur Full-Stack",
                 "Ingénieur DevOps",
-                "Designer UX"
+                "Passionné d'IA"
             ]
         }
     }

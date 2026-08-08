@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Outer teal circle border -->
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#1BBFBE" stroke-width="8"/>
+  <!-- Pink/purple upper "9" shape -->
+  <path d="M100 40
+    C 72 40, 55 58, 55 82
+    C 55 106, 73 122, 100 122
+    C 118 122, 130 112, 135 98
+    L 135 82
+    C 135 58, 118 40, 100 40 Z
+    M 100 58
+    C 112 58, 120 68, 120 82
+    C 120 96, 112 106, 100 106
+    C 88 106, 80 96, 80 82
+    C 80 68, 88 58, 100 58 Z"
+    fill="#C0376B"/>
+  <!-- Pink stem going down-right -->
+  <rect x="119" y="95" width="16" height="55" rx="8" fill="#C0376B" transform="rotate(10, 127, 122)"/>
+  <!-- Orange lower "9" / hook shape -->
+  <path d="M100 78
+    C 73 78, 58 95, 58 118
+    C 58 141, 76 158, 100 158
+    C 124 158, 142 141, 142 118
+    C 142 95, 127 78, 100 78 Z
+    M 100 96
+    C 115 96, 126 106, 126 118
+    C 126 130, 115 140, 100 140
+    C 85 140, 74 130, 74 118
+    C 74 106, 85 96, 100 96 Z"
+    fill="#F5A623"/>
+</svg>

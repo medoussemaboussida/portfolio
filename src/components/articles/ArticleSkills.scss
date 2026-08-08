@@ -55,6 +55,23 @@ div.article-skills-item {
     padding: var(--padding);
 }
 
+div.article-skills-item-logo-only {
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.20s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    div.article-skills-item-avatar-wrapper {
+        justify-content: center;
+        width: auto;
+        min-width: 0;
+    }
+}
+
 div.article-skills-item-avatar-wrapper {
     display: flex;
     align-items: center;
