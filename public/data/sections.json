@@ -24,7 +24,12 @@
             "jsonPath": "/data/sections/experience.json",
             "faIcon": "fa-solid fa-briefcase"
         },
-  
+         {
+            "id": "projects",
+            "categoryId": "showcase",
+            "jsonPath": "/data/sections/projects.json",
+            "faIcon": "fa-solid fa-laptop-code"
+        },
         {
             "id": "achievements",
             "categoryId": "showcase",

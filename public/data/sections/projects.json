@@ -1,0 +1,221 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Academic Projects",
+                "title_short_nav": "Academic Projects",
+                "title_long_prefix": "Summary of my",
+                "title_long": "Academic Projects"
+            },
+            "fr": {
+                "title_short": "Projets Académiques",
+                "title_short_nav": "Projets Académiques",
+                "title_long_prefix": "Résumé de mes",
+                "title_long": "Projets Académiques"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+                {
+                 "id": 1,
+                    "img": "images/pictures/game.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2022, "month": 1},
+                    "dateEnd": {"year": 2022, "month": 5},
+                    "locales": {
+                        "en": {
+                            "title": "{{Leaders Apocalypse}} <a href='https://github.com/medoussemaboussida/Leaders-Apocalypse' target='_blank' rel='noopener noreferrer' style='vertical-align:middle;margin-left:8px;'><img src='https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat&logo=github&logoColor=white' alt='GitHub' style='height:22px;'/></a>",
+                            "text": "Conception and development of a 2D video game.",
+                            "list": [],
+                            "tags": ["Ubuntu", "SDL 1.2", "C","Adobe Photoshop", "Adobe Illustrator","Adobe After effect","Git"]
+                        },
+                        "fr": {
+                            "title": "{{Leaders Apocalypse}} <a href='https://github.com/medoussemaboussida/Leaders-Apocalypse' target='_blank' rel='noopener noreferrer' style='vertical-align:middle;margin-left:8px;'><img src='https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat&logo=github&logoColor=white' alt='GitHub' style='height:22px;'/></a>",
+                            "text": "Conception et développement d'un jeu vidéo 2D.",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                },
+                                {
+                 "id": 1,
+                    "img": "images/pictures/qt.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2022, "month": 9},
+                    "dateEnd": {"year": 2022, "month": 12},
+                    "locales": {
+                        "en": {
+                            "title": "{{Royal travelers}} <a href='https://github.com/medoussemaboussida/Royal-Travelers' target='_blank' rel='noopener noreferrer' style='vertical-align:middle;margin-left:8px;'><img src='https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat&logo=github&logoColor=white' alt='GitHub' style='height:22px;'/></a>",
+                            "text": "Conception and development of desktop application to manage a business travel agency.",
+                            "list": [],
+                            "tags": ["QT Creator", "Oracle SQL developer", "Arduino"]
+                        },
+                        "fr": {
+                            "title": "{{Royal travelers}} <a href='https://github.com/medoussemaboussida/Royal-Travelers' target='_blank' rel='noopener noreferrer' style='vertical-align:middle;margin-left:8px;'><img src='https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat&logo=github&logoColor=white' alt='GitHub' style='height:22px;'/></a>",
+                            "text": "Conception et développement d'une application desktop pour gérer une agence de voyages d'affaires.",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                },
+                                {
+                 "id": 1,
+                    "img": "images/pictures/medical.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2023, "month": 3},
+                    "dateEnd": {"year": 2023, "month": 5},
+                    "locales": {
+                        "en": {
+                            "title": "{{Jasmineous}} <a href='https://github.com/medoussemaboussida/Jasmineous' target='_blank' rel='noopener noreferrer' style='vertical-align:middle;margin-left:8px;'><img src='https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat&logo=github&logoColor=white' alt='GitHub' style='height:22px;'/></a>",
+                            "text": "Conception and development of a medical website.",
+                            "list": [],
+                            "tags": ["MySQL","Php","JavaScript","HTML & CSS","Git"]
+                        },
+                        "fr": {
+                            "title": "{{Jasmineous}} <a href='https://github.com/medoussemaboussida/Jasmineous' target='_blank' rel='noopener noreferrer' style='vertical-align:middle;margin-left:8px;'><img src='https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat&logo=github&logoColor=white' alt='GitHub' style='height:22px;'/></a>",
+                            "text": "Conception et développement d'un site web médical.",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    
+                    "id": 1,
+                    "img": "images/pictures/market.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2024, "month": 1},
+                    "dateEnd": {"year": 2024, "month": 5},
+                    "locales": {
+                        "en": {
+                            "title": "{{EspritMarket}} <a href='https://github.com/medoussemaboussida/ESPRIMARKET' target='_blank' rel='noopener noreferrer' style='vertical-align:middle;margin-left:8px;'><img src='https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat&logo=github&logoColor=white' alt='GitHub' style='height:22px;'/></a>",
+                            "text": "Designed and implemented a multi-platform application (Desktop, Web and mobile) for managing a Grocery store.",
+                            "list": [],
+                            "tags": ["Symfony", "MySQL", "JavaFX","FlutterFlow", "Firebase","Php","JavaScript","HTML & CSS","Git"]
+                        },
+                        "fr": {
+                            "title": "{{EspritMarket}} <a href='https://github.com/medoussemaboussida/ESPRIMARKET' target='_blank' rel='noopener noreferrer' style='vertical-align:middle;margin-left:8px;'><img src='https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat&logo=github&logoColor=white' alt='GitHub' style='height:22px;'/></a>",
+                            "text": "Conception et développement d'une application multi-plateforme (Desktop, Web et mobile) pour la gestion d'un magasin d'épicerie.",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/cicd.svg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2025, "month": 2},
+                    "dateEnd": {"year": 2025, "month": 4},
+                    "locales": {
+                        "en": {
+                            "title": "{{CI/CD Pipeline}} for Spring Boot Application",
+                            "text": " Built a full CI/CD pipeline for a Spring Boot application to automate build, testing, deployment and monitoring.",
+                            "list": [],
+                            "tags": ["Jenkins", "Docker", "SonarQube", "Nexus", "Git","Prometheus", "Grafana"]
+                        },
+                     
+                        "fr": {
+                            "title": "{{ Pipeline CI/CD}} pour une application Spring Boot",
+                            "text": "Intégration d'un pipeline CI/CD pour une application Spring Boot afin d'automatiser la construction, les tests, le déploiement et la surveillance.",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/pictures/mern.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2025, "month": 1},
+                    "dateEnd": {"year": 2025, "month": 5},
+                    "locales": {
+                        "en": {
+                            "title": "{{EspritCare}} <a href='https://github.com/medoussemaboussida/Full-Stack-JS-Project' target='_blank' rel='noopener noreferrer' style='vertical-align:middle;margin-left:8px;'><img src='https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat&logo=github&logoColor=white' alt='GitHub' style='height:22px;'/></a>",
+                          "list": [
+                                "Designed and developed a secure and efficient platform for ESPRIT to manage psychological support for students.",
+                                "Implemented an end-to-end CI/CD pipeline to automate build, test, deployment and monitoring.",
+                                "Built an AI-powered model to evaluate student mental health and provide personalized recommendations."
+                            ],
+                            "tags": ["MERN Stack", "Python", "LLM", "NLP", "Git", "Docker", "Jenkins", "SonarQube", "Grafana", "Prometheus"]
+                        },
+                        "fr": {
+                            "title": "{{EspritCare}} <a href='https://github.com/medoussemaboussida/Full-Stack-JS-Project' target='_blank' rel='noopener noreferrer' style='vertical-align:middle;margin-left:8px;'><img src='https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat&logo=github&logoColor=white' alt='GitHub' style='height:22px;'/></a>",
+                            "list": [
+                                "Conception et développement d'une plateforme sécurisée et efficace pour ESPRIT afin de gérer le soutien psychologique des étudiants.",
+                                "Mise en place d'un pipeline CI/CD pour automatiser la construction, les tests, le déploiement et la surveillance.",
+                                "Création d'un modèle IA pour évaluer la santé mentale des étudiants et fournir des recommandations personnalisées."
+                            ],
+                            "tags": []
+                        }
+                    }
+                },
+                 {
+                    "id": 4,
+                    "img": "images/pictures/django.png",
+                    "faIcon": "",
+                    "dateStart": {"year": 2025, "month": 9},
+                    "dateEnd": {"year": 2025, "month": 10},
+                     "locales": {
+                        "en": {
+                            "title": "{{Story AI}} <a href='https://github.com/medoussemaboussida/Django_TheStarks_5TWIN7' target='_blank' rel='noopener noreferrer' style='vertical-align:middle;margin-left:8px;'><img src='https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat&logo=github&logoColor=white' alt='GitHub' style='height:22px;'/></a>",
+                          "text": 
+                                "Developed a A plateform that centralizes daily digital memories — photos, videos, notes, and audio recordings — into a smart personal journal..",
+                            
+                            "tags": ["Django", "SQLite", "Docker","Ollama", "RAG"]
+                        },
+                        "fr": {
+                            "title": "{{Story AI}} <a href='https://github.com/medoussemaboussida/Django_TheStarks_5TWIN7' target='_blank' rel='noopener noreferrer' style='vertical-align:middle;margin-left:8px;'><img src='https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat&logo=github&logoColor=white' alt='GitHub' style='height:22px;'/></a>",
+                               "text": 
+                                "Développement d'une plateforme qui centralise les souvenirs numériques quotidiens — photos, vidéos, notes et enregistrements audio — dans un journal personnel intelligent.",
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "images/pictures/laravel.png",
+                    "faIcon": "",
+                    "dateStart": {"year": 2025, "month": 9},
+                    "dateEnd": {"year": 2025, "month": 10},
+                     "locales": {
+                        "en": {
+                            "title": "{{UrbanGreen}} <a href='https://github.com/medoussemaboussida/Laravel_TheStarks_5TWIN7' target='_blank' rel='noopener noreferrer' style='vertical-align:middle;margin-left:8px;'><img src='https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat&logo=github&logoColor=white' alt='GitHub' style='height:22px;'/></a>",
+                          "list": [
+                                "Developed a platform that promotes the greening of urban areas to improve the quality of life in cities.",
+                                "Implemented a full CI/CD workflow automating build, test, deployment and monitoring.",
+                                "Developed an AI chatbot using a locally hosted LLM via Ollama."
+                            ],
+                            "tags": ["Laravel", "MySQL", "Docker", "Jenkins", "Git","SonarQube", "Grafana", "Prometheus","Ollama", "RAG"]
+                        },
+                        "fr": {
+                            "title": "{{UrbanGreen}} <a href='https://github.com/medoussemaboussida/Laravel_TheStarks_5TWIN7' target='_blank' rel='noopener noreferrer' style='vertical-align:middle;margin-left:8px;'><img src='https://img.shields.io/badge/GitHub-View_Repo-181717?style=flat&logo=github&logoColor=white' alt='GitHub' style='height:22px;'/></a>",
+                            "list": [
+                                "Développement d'une plateforme qui favorise la végétalisation des zones urbaines pour améliorer la qualité de vie dans les villes.",
+                                "Mise en place d'un pipeline CI/CD automatisant la construction, les tests, le déploiement et la surveillance.",
+                                "Développement d'un chatbot IA utilisant un LLM hébergé localement via Ollama."
+                            ],
+                            "tags": []
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
