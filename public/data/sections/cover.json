@@ -67,10 +67,10 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "en": {
-                            "text": "<p>{{IT Engineer}} based in Tunisia. Graduate of [[ESPRIT School of Engineering]], specialized in Web and Internet Technologies. I'm actively looking for new opportunities to grow, contribute, and keep leveling up professionally.</p>"
+                            "text": "<p>{{IT Engineer}} based in Tunisia. Graduate of [[ESPRIT School of Engineering]], specialized in Web and Internet Technologies. I'm actively looking for new opportunities to grow, contribute, and continue developing my skills professionally.</p>"
                         },
                         "fr": {
-                            "text": "<p>Ingénieur informatique basé en Tunisie. Diplômé de l'ESPRIT School of Engineering, spécialisé en Technologies du Web et de l'Internet. Je suis activement à la recherche de nouvelles opportunités pour évoluer, contribuer et continuer à monter en compétences.</p>"
+                            "text": "<p>{{Ingénieur informatique}} basé en Tunisie, diplômé de [[l’École Supérieure Privée d’Ingénierie et de Technologie (ESPRIT)]], spécialisé en Technologies du Web et de l’Internet. Je suis actuellement à la recherche de nouvelles opportunités pour mettre mes compétences à profit, contribuer à des projets innovants et poursuivre mon développement professionnel.</p>"
                         }
                     }
                 }

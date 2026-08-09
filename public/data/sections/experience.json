@@ -142,7 +142,7 @@
                                 "Renforcement de la sécurité de la plateforme en construisant un système d'authentification personnalisé et un contrôle d'accès basé sur les rôles avec [[Spring Security]].",
                                 "Amélioration des performances de l'application et optimisation de la gestion des réservations grâce à la mise en place d'un système de mise en cache basé sur [[Redis]].",
                                 "Amélioration de l'expérience utilisateur en intégrant un [[chatbot IA LLaMA basé sur RAG]] capable d'interactions conversationnelles et de recommandations personnalisées pour les réservations.",
-                                "Rationalisation de la livraison logicielle et amélioration de la qualité du code en construisant un pipeline CI/CD de bout en bout, automatisant les flux de travail de construction, de tests unitaires, d'analyse de sécurité, de déploiement et de surveillance."
+                                "Mise en place d’un pipeline CI/CD, pour automatiser la livraison logicielle, les tests unitaires, l’analyse de sécurité, le déploiement et le monitoring, tout en améliorant la qualité du code."
                             ],
                             "tags": []
                         }
