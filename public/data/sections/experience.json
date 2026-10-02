@@ -2,16 +2,16 @@
     "title": {
         "locales": {
             "en": {
-                "title_short": "Internships",
-                "title_short_nav": "Internships",
+                "title_short": "Professional Experiences",
+                "title_short_nav": "Experiences",
                 "title_long_prefix": "Summary of my",
-                "title_long": "Internships"
+                "title_long": "Professional Experiences"
             },
             "fr": {
-                "title_short": "Stages",
-                "title_short_nav": "Stages",
+                "title_short": "Expériences Professionnelles",
+                "title_short_nav": "Expériences",
                 "title_long_prefix": "Résumé de mes",
-                "title_long": "Stages"
+                "title_long": "Expériences Professionnelles"
             }
         }
     },
@@ -28,122 +28,26 @@
             "items": [
                 {
                     "id": 1,
-                    "img": "images/pictures/clickerp.jpg",
+                    "img": "images/pictures/spark.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2023, "month": 6},
-                    "dateEnd": {"year": 2023, "month": 8},
+                    "dateStart": {"year": 2026, "month": 8},
+                    "dateEnd": {"now": true},
                     "locales": {
                         "en": {
-                            "title": "{{Web}} Developer",
-                            "country": "Tunisia-Hybrid",
-                            "institution": "ClickErp",
-                            "text": "Developed a functional CRUD module for the ClickErp’s platform.",
-                            "list": [],
-                            "tags": ["PHP", "MySQL", "WordPress","JavaScript"]
-                        },
-                        "fr": {
-                            "title": "{{Développeur Web}}",
-                            "country": "Tunisie-Hybride",
-                            "institution": "Click Erp",
-                            "text": "Développement d'un module CRUD fonctionnel pour la plateforme ClickErp.",
-                            "list": [],
-                            "tags": []
-                        }
-                    }
-                },
-                {
-                    "id": 2,
-                    "img": "images/pictures/beecoders.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2024, "month": 7},
-                    "dateEnd": {"year": 2024, "month": 8},
-                    "locales": {
-                        "en": {
-                            "title": "{{Mobile}} Developer",
-                            "province": "",
-                            "country": "Remote",
-                            "institution": "BeeCoders",
-                            "text": "Designed and developed a mobile application that gathers IT news and events in Tunisia.",
-                            "list": [],
-                            "tags": ["Flutter", "NodeJS", "ExpressJS", "MongoDB", "Git"]
-                        },
-                     
-                        "fr": {
-                            "title": "Développeur{{Mobile}}",
-                            "province": "",
-                            "country": "Télétravail",
-                            "institution": "BeeCoders",
-                            "text": "Conception et développement d'une application mobile qui recueille les actualités et événements liés à l'informatique en Tunisie.",
-                            "list": [],
-                            "tags": []
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "img": "images/pictures/axio.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2025, "month": 6},
-                    "dateEnd": {"year": 2025, "month": 8},
-                    "locales": {
-                        "en": {
-                            "title": "{{Full-Stack & DevOps}} Engineer",
+                            "title": "{{Full-Stack}} Engineer",
                             "country": "Tunisia - On site",
-                            "institution": "Axio",
-                          "list": [
-                                "Enhanced administrative efficiency by developing an admin dashboard for the Gamefy Academy website.",
-                                "Integrated Firebase Authentication to strengthen application security and improve the user authentication experience.",
-                                "Integrated a CI/CD pipeline to ensure faster and more reliable delivery of updates."
-                            ],
-                            "tags": ["ReactJS", "Spring Boot", "MongoDB", "Git", "Firebase Authetication", "Docker", "Jenkins", "SonarQube", "Grafana", "Prometheus"]
-                        },
-                        "fr": {
-                            "title": "Ingénieur {{Full-Stack & DevOps}}",
-                            "country": "Tunisie - Sur site",
-                            "institution": "Axio",
-                            "list": [
-                                "Amélioration de l'efficacité administrative en développant un tableau de bord d'administration pour le site Web de Gamefy Academy.",
-                                "Intégration de Firebase Authentication pour renforcer la sécurité de l'application et améliorer l'expérience d'authentification des utilisateurs.",
-                                "Intégration d'un pipeline CI/CD pour assurer une livraison plus rapide et plus fiable des mises à jour."
-                            ],
+                            "institution": "Spark Talent Alliance",
+                            "text": "Contributing to the design, development and deployment of end-to-end IT solutions.",
+                            "list": [],
                             "tags": []
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "img": "images/pictures/axio.png",
-                    "faIcon": "",
-                    "dateStart": {"year": 2026, "month": 1},
-                    "dateEnd": {"year": 2026, "month": 7},
-                     "locales": {
-                        "en": {
-                            "title": "{{Full-Stack & DevOps}} Engineer",
-                            "country": "Tunisia - Hybrid",
-                            "institution": "Axio",
-                          "list": [
-                                "Redesigned and rebuilt the entire Gamefy Academy website from scratch, delivering a modern, scalable architecture.",
-                                "Strengthened platform security by building a custom authentication and role-based access control system with [[Spring Security]]",
-                                "Enhanced application performance and optimized reservation handling by implementing a [[Redis]]-based caching system.",
-                                "Enhanced the user experience by integrating a [[RAG-based LLaMA AI chatbot]] capable of conversational interaction and personalized reservation recommendations.",
-                                 "Streamlined software delivery and improved code quality by building an end-to-end CI/CD pipeline, automating build, unit testing, security scanning, deployment, and monitoring workflows."
-                            ],
-                            "tags": ["ReactJS", "TailwindCSS", "Spring Boot", "PostgreSQL", "Git", "Spring Security", "Docker", "GitHub Actions", "SonarQube", "Grafana", "Prometheus", "Redis", "LLaMA", "RAG", "Aqua Trivy", "Snyk"]
                         },
                         "fr": {
-                            "title": "Ingénieur {{Full-Stack & DevOps}}",
-                            "country": "Tunisie - Hybride",
-                            "institution": "Axio",
-                            "list": [
-                                "Conception et développement de la plateforme Gamefy Academy, offrant une architecture moderne et évolutive.",
-                                "Renforcement de la sécurité de la plateforme en construisant un système d'authentification personnalisé et un contrôle d'accès basé sur les rôles avec [[Spring Security]].",
-                                "Amélioration des performances de l'application et optimisation de la gestion des réservations grâce à la mise en place d'un système de mise en cache basé sur [[Redis]].",
-                                "Amélioration de l'expérience utilisateur en intégrant un [[chatbot IA LLaMA basé sur RAG]] capable d'interactions conversationnelles et de recommandations personnalisées pour les réservations.",
-                                "Mise en place d’un pipeline CI/CD, pour automatiser la livraison logicielle, les tests unitaires, l’analyse de sécurité, le déploiement et le monitoring, tout en améliorant la qualité du code."
-                            ],
+                            "title": "Ingénieur {{Full-Stack}}",
+                            "country": "Tunisie - Sur site",
+                            "institution": "Spark Talent Alliance",
+                            "text": "Contribution à la conception, au développement et au déploiement de solutions IT de bout en bout.",
+                            "list": [],
                             "tags": []
                         }
                     }

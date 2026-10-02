@@ -83,18 +83,18 @@
                 {
                     "id": 4,
                     "img": "",
-                    "faIcon": "fa-solid fa-window-restore",
+                    "faIcon": "fa-solid fa-cloud",
                     "faIconColors": {"bg": "", "fill": ""},
                     "date": {"year": null, "month": null},
                     "link": {"href": "", "tooltipString": ""},
                     "locales": {
                         "en": {
-                            "title": "{{REST}} APIs",
-                            "text": "I can build API services!"
+                            "title": "{{SaaS}} solutions",
+                            "text": "I can build scalable, cloud-based SaaS platforms from end to end!"
                         },
                         "fr": {
-                            "title": "APIs {{REST}}",
-                            "text": "Je peux créer des services API !"
+                            "title": "Solutions {{SaaS}}",
+                            "text": "Je peux concevoir des plateformes SaaS évolutives et cloud de bout en bout !"
                         }
                     }
                 }
@@ -198,6 +198,20 @@
                         },
                         "fr": {
                             "title": "Django"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": "images/logos/nestjs.svg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Nest.js"
+                        },
+                        "fr": {
+                            "title": "Nest.js"
                         }
                     }
                 }
